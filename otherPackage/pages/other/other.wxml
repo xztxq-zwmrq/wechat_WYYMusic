@@ -1,0 +1,10 @@
+<!-- 引入模板 -->
+<import src="/template/myTemplate/myTemplate.wxml"></import>
+<view class="otherContainer">
+  <!-- 测试模板 -->
+  <view class="otherTitle">测试使用模板</view>
+  <template is="myTmp" data="{{...person}}"></template>
+  <!-- 测试获取用户的唯一标识openId -->
+  <view class="otherTitle">测试获取用户的唯一标识openId</view>
+  <button bindtap="handleGetOpenId">获取openId</button>
+</view>

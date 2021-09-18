@@ -1,0 +1,13 @@
+/* pages/other/other.wxss */
+/* 引入模板的样式 */
+@import '/template/myTemplate/myTemplate.wxss';
+/* .title {
+  font-size: 50rpx;
+  font-weight: 700;
+  color: skyblue;
+} */
+.otherTitle {
+  font-size: 50rpx;
+  font-weight: 700;
+  color: skyblue;
+}

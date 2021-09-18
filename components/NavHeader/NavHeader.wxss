@@ -1,0 +1,21 @@
+/* components/NavHeader/NavHeader.wxss */
+.header .title {
+  font-size: 32rpx;
+  line-height: 80rpx;
+  color: #666;
+}
+.header view {
+  margin-bottom: 20rpx;
+}
+.header text:first-child {
+  line-height: 60rpx;
+  /* text是行内元素，使用margin无法撑开盒子 */
+  /* margin-bottom: 20rpx; */
+}
+.header .more {
+  float: right;
+  padding: 10rpx;
+  border: 1px solid #333;
+  border-radius: 25rpx;
+  font-size: 26rpx;
+}
